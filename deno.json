@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --allow-env=NODE_V8_COVERAGE,UNDICI_NO_FG,JEST_WORKER_ID --allow-net=www.philatelie.li:443 --watch main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
